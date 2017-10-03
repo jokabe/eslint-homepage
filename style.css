@@ -1,0 +1,66 @@
+.ui.logo.borderless.menu {
+  background-color: white;
+  box-shadow: none;
+  border: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  color: #666;
+}
+
+.left.menu .ui.item .text {
+  font-size: 35px;
+  color: #666;
+}
+
+.middle.menu .item .ui.large.transparent.left.icon{
+  padding-bottom: 4px;
+  border-bottom: solid 2px #4D4D4D;
+}
+
+.middle.menu .item .ui.large.transparent.left.icon.input .search.icon {
+  line-height: 1.5;
+  color: #66666F;
+}
+
+.ui.input input {
+  margin-top: 15px;
+}
+
+.right.menu .fitted.item .ui.dropdown.item .text {
+  color: #666;
+}
+
+.right.menu .item .text {
+  color: #666;
+}
+
+.ui.menu .item {
+  padding: 0.92857143em 0.5em;
+}
+
+.banner {
+  background-color: #4746d0;
+  padding: 0px;
+}
+
+.banner .ui.three.column.grid .column .ui.segment .main.text {
+  color: white;
+  font-size: 68px;
+  font-weight: 400px;
+}
+
+.banner .ui.three.column.grid .column .ui.segment .sub.text {
+  color: white;
+  font-size: 36px;
+}
+
+.banner .ui.three.column.grid {
+  padding: 0px;
+}
+
+.banner .ui.three.column.grid .column .ui.segment{
+  border: none;
+  box-shadow: none;
+  background-color: #4746d0;
+  padding: 0px;
+}
