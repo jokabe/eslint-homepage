@@ -1,10 +1,15 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .ui.logo.borderless.menu {
   background-color: white;
   box-shadow: none;
   border: none;
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 17px;
   color: #666;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .left.menu .ui.item .text {
@@ -13,17 +18,20 @@
 }
 
 .middle.menu .item .ui.large.transparent.left.icon{
-  padding-bottom: 4px;
+
   border-bottom: solid 2px #4D4D4D;
 }
 
 .middle.menu .item .ui.large.transparent.left.icon.input .search.icon {
-  line-height: 1.5;
+  line-height: 0.5;
   color: #66666F;
 }
 
-.ui.input input {
+.middle.menu .item .ui.large.transparent.left.icon.input {
   margin-top: 15px;
+  font-size: 16px;
+  padding-bottom: 10px;
+  margin-left: 120px;
 }
 
 .right.menu .fitted.item .ui.dropdown.item .text {
@@ -40,27 +48,64 @@
 
 .banner {
   background-color: #4746d0;
-  padding: 0px;
+  height: 310px;
+  background-image: url("https://eslint.org/img/background.svg");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-.banner .ui.three.column.grid .column .ui.segment .main.text {
+.banner .ui.grid .ui.container .title.row .text{
   color: white;
-  font-size: 68px;
-  font-weight: 400px;
+  font-size: 57px;
+  font-weight:400;
+  margin-top: 100px;
+  margin-bottom: 16px;
 }
 
-.banner .ui.three.column.grid .column .ui.segment .sub.text {
+.banner .ui.grid .ui.container .sub.row .text{
   color: white;
   font-size: 36px;
+  font-weight: lighter;
+  margin-top: 40px;
+  margin-bottom: 16px;
 }
 
-.banner .ui.three.column.grid {
-  padding: 0px;
+.banner .ui.grid .ui.container .getstarted.row button {
+  margin-top: 30px;
+  margin-left: 35%;
+  width: 350px;
+  color: #333333;
+  font-weight: 100;
+  background-color: #FFFFFF;
 }
 
-.banner .ui.three.column.grid .column .ui.segment{
-  border: none;
-  box-shadow: none;
-  background-color: #4746d0;
-  padding: 0px;
+.welcome {
+  padding-top: 30px;
 }
+
+.welcome .ui.container h2 {
+  font-size: 29px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+.welcome .ui.container p {
+  font-size: 25.5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.welcome .ui.container p a {
+  color: #4c3ac0;
+}
+
+.welcome .ui.container .ui.bulleted.list .item {
+  font-size: 17px;
+}
+
+.welcome .ui.container .ui.bulleted.list .item a {
+  color: #4c3ac0;
+}
+
+
